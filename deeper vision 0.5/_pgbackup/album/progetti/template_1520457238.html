@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="assets/js/jquery.min.js"></script>
+        <script type="text/javascript">
+      $(window).load(function() {
+      $(".loader").fadeOut("slow");
+      });
+    </script>
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>projectemplate</title>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+        <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
+        <link rel="stylesheet" href="assets/css/Video-Responsive.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="loader"></div>
+        <a href="#" class="round-button" onclick="history.go(-1)"><i class="fa fa-arrow-circle-o-left"></i></a>
+        <h1 style="text-align:center;">Project Template</h1>
+        <p style="text-align:center;">Sottotitolo descrittivo e d'impatto. GVNG</p>
+        <div class="photo-gallery">
+            <div class="container">
+                <div class="row photos">
+                    <div class="col-lg-3 col-md-4 col-sm-6 item" data-pgc-edit="photofiled" data-pgc-repeat>
+                        <a href="assets/img/desk.jpg" data-lightbox="photos" data-pgc-edit="link immagine">
+                            <img class="img-responsive" src="assets/img/desk.jpg" data-pgc-edit="immagine">
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 item" data-pgc-define data-pgc-edit="videofield">
+                        <a href="assets/img/loft.jpg" data-lightbox="photos" data-pgc-edit="linkvideo"></a>
+                        <div class="video-container" data-pgc-edit="videocontainer">
+                            <iframe allowfullscreen="" frameborder="0" src="https://player.vimeo.com/video/201361986" data-pgc-edit="iframevideo"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    </body>
+</html>

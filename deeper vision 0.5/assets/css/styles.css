@@ -1,0 +1,73 @@
+html, body {
+  /*height:100%;*/
+  /*background-color:#eae9e9;*/
+}
+
+.first {
+  padding-top:140px;
+  padding-bottom:10px;
+  height:100vh;
+  /*min-height:400px;*/
+  background-size:cover;
+  background-image:url('../../assets/img/deepervisionheader.png');
+  background-position:center center;
+  background-repeat:no-repeat;
+  /*background-attachment:fixed;*/
+}
+
+.affix {
+  -webkit-transition:padding 0.2s ease-out;
+  -moz-transition:padding 0.2s ease-out;
+  /*-o-transition:padding 0.2s ease-out;*/
+  transition:padding 0.2s ease-out;
+}
+
+.affix-top {
+  background:transparent;
+  border-color:transparent;
+  padding:15px;
+  -webkit-transition:all 0.5s ease;
+  -moz-transition:all 0.5s ease;
+  /*-o-transition:all 0.5s ease;*/
+  transition:all 0.5s ease;
+}
+
+.affix-top .nav > li > a {
+  color:#000000;
+  /*background-color:black;*/
+}
+
+.affix-top .navbar-collapse {
+  /*border-color:transparent;*/
+  /*box-shadow:initial;*/
+}
+
+section {
+  height:calc(90% - 50px);
+  height:80vh;
+  /*width:auto;*/
+}
+
+#btn-contact {
+  background-color:#bbbbbb;
+  padding-bottom:18px;
+}
+
+#btn-contact:hover {
+  background-color:#cccccc;
+}
+
+footer {
+  /*width:100%;*/
+  padding:3px;
+  height:20px;
+  background-color:#3a3838;
+  text-align:center;
+  color:#cccccc;
+  /*margin-top:10px;*/
+}
+
+#footer {
+  background-color:#3a3838;
+}
+
